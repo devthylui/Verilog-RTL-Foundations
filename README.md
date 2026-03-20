@@ -16,6 +16,7 @@ While this repository contains various logic exercises, the following modules ha
 * **Up/Down Counters**: Asynchronous ripple counters interfaced with 7-segment hardware.
 * **State Diagram FSM**: Sequence detection and control logic implementation.
 * **SRAM Logic**: Basic memory read/write cycle modeling.
+* **Parallel Communication**: Multi-bit data transfer logic verified through synchronized signal timing.
 
 ## 📂 Repository Structure
 *Note: Each directory includes functional RTL and corresponding directed testbenches.*
@@ -33,7 +34,7 @@ While this repository contains various logic exercises, the following modules ha
 - Fundamental building blocks: Flip-Flops (JK, D, T), Counters, and Decoders.
 
 ### [04 Intermediate Modules](./04%20Intermediate%20Modules)
-- Integrated logic: 2-bit ALU, SRAM modeling, and FSM.
+- Integrated logic: 2-bit ALU, SRAM modeling, FSM and Parallel Communication.
 
 ## 📊 Verification & Documentation
 To ensure a consistent design flow, projects include:
